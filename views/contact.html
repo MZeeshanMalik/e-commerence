@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width " ,content="user-scalable=no" , initial-scale="1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <style>
+
+    </style>
+    <title>odour</title>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="img">
+                <img src="../data/images/svg/logo_300x.png" alt="">
+            </div>
+            <div class="nav_list">
+                <div class="items"><a href="indx.html">Home</a></div>
+                <div class="items"><a href="products.html">Shop</a></div>
+                <div class="items"><a href="products.html">Product</a></div>
+                <div class="items"><a href="contact.html"> Contact</a></div>
+                <div class="items"><a href="blog.html">About</a></div>
+
+            </div>
+            <!-- <span class="list_items serch_icon">$0.00</span> -->
+            <!-- <img class="serch_icon" src="../data/images/svg/icons8-cart.gif" alt="cart icon"> -->
+            <div class="container">
+                <div class="btn"><a href="#">login</a></div>
+                <div class="btn"><a href="#">signup</a></div>
+            </div>
+        </div>
+    </nav>
+    <div class="max-width1 m-auto">
+        <hr>
+    </div>
+
+    <div class="home-articles max-width1 m-auto font1">
+        <div class="contact-form">
+            <h2>Contact us </h2>
+            <form action="/myaaction.php" name="myform" onchange="return validForm()" onsubmit="return validForm()"
+                method="post">
+                <div class="form-box" id="name">
+                    <input type="text" name="fname" placeholder="Enter your Name"><b><span class="formerror"></span></b>
+                </div>
+                <div class="form-box" id="email">
+                    <input type="email" name="femail" placeholder="Enter your Email"><b><span class="formerror">
+                        </span></b>
+                </div>
+                <div class="form-box" id="phone-no">
+                    <input type="phone number" name="phone" placeholder="Enter your phone number"><b><span
+                            class="formerror"> </span></b>
+                </div>
+                <div class="form-box" id="textarea">
+                    <textarea name="about" id="" cols="30" rows="10"
+                    placeholder="Enter about yourself"></textarea><b><span class="formerror"> </span></b>
+                </div>
+                <div class="form-box">
+                    <input type="submit" value="submit" class="btn">
+                    <!-- <button type="submit" value="Submit" class="btn">Submit</button> -->
+                </div>
+            </form>
+        </div>
+    </div>
+    <section>
+        <footer>
+            <div class="footer">
+                <div class="social_links items">
+                    <a href="">Facebook</a>
+                    <a href="">Twitter</a>
+                    <a href="">Instagram</a>
+                    <a href="">Linkdin</a>
+                </div>
+                <div class="copyright">
+                    <span>Copyright © All Right Reserved</span>
+                </div>
+                <div class="payment">
+                    <img src="../data/images/payment.webp" alt="">
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+<script src="../js/index.js"></script>
+<script src="../js/contact.js"></script>
+
+</html>
